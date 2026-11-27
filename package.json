@@ -23,7 +23,7 @@
     "examples/",
     "LICENSE",
     "README.md",
-    "README.zh-CN.md"
+    "README.en.md"
   ],
   "scripts": {
     "test": "node tests/test-open-plugin.mjs",

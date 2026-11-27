@@ -96,6 +96,11 @@ npm test
 npm run check:privacy
 ```
 
+## 致谢
+
+- [mochi-fish/dsh-fish](https://github.com/mochi-fish/dsh-fish)（作者：[@mochi-fish](https://github.com/mochi-fish)）— `dsh-phone-chat` 支持可选联动的开源伙伴插件。
+- **DeepSeek Harness (DSH)** — 插件运行平台。
+
 ## 开源协议
 
 [MIT](./LICENSE) © 2026 Hyrrokin

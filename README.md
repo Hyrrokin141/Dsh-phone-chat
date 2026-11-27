@@ -96,6 +96,11 @@ npm test
 npm run check:privacy
 ```
 
+## Acknowledgements
+
+- [mochi-fish/dsh-fish](https://github.com/mochi-fish/dsh-fish) by [@mochi-fish](https://github.com/mochi-fish) — Optional companion agent plugin supported by `dsh-phone-chat`.
+- **DeepSeek Harness (DSH)** — Host plugin platform.
+
 ## License
 
 [MIT](./LICENSE) © 2026 Hyrrokin

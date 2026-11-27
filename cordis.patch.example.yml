@@ -1,0 +1,18 @@
+# ============================================================================
+# dsh-phone-chat — Example DSH bundle patch
+# ============================================================================
+# Add this snippet to your DSH profile's `cordis.patch.yml` (or install as a
+# DSH plugin bundle). Most runtime settings can be edited directly in the
+# DSH Settings -> "远程聊天 (DSH-Phone-Chat)" panel and are persisted to
+# `~/.dsh/phone-chat/config.json` (which never enters Git).
+# ============================================================================
+
+- insert:
+    - id: phone-chat
+      name: dsh-phone-chat
+      config:
+        # Only accept loopback / local tunnel traffic by default
+        hostOnly: true
+        # Optional: override workspace cwd for the primary DSH session
+        # leadCwd: /path/to/your/workspace
+        # leadPreset: standard

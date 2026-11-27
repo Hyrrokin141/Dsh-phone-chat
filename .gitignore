@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Local runtime config, keys & secrets
+.env
+.env.*
+*.local.json
+*.local.yml
+*.local.yaml
+key.txt
+*-key.txt
+*.key
+config.json
+
+# Backups, logs & archives
+*.bak-*
+*.log
+_archive/
+.tmp/
+.chat/
+.tts/
+.state/
+.cursor/
+
+# OS & editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

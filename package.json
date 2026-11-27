@@ -1,0 +1,56 @@
+{
+  "name": "dsh-phone-chat",
+  "version": "1.0.0",
+  "description": "Mobile remote chat & control plugin for DeepSeek Harness (DSH) with a built-in DSH settings panel, pluggable Agent/Harness adapters, TTS contract, and Remote Control hooks.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./cordis.patch.yml": "./cordis.patch.example.yml",
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib/index.js",
+    "lib/client.js",
+    "lib/config.mjs",
+    "lib/harness.mjs",
+    "lib/tts.mjs",
+    "lib/remote-control.mjs",
+    "lib/qr.mjs",
+    "lib/page.html",
+    "cordis.patch.example.yml",
+    "examples/",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "node tests/test-open-plugin.mjs",
+    "check:privacy": "node tools/check-privacy.mjs"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.example.yml"
+    },
+    "client": {
+      "inject": [],
+      "platform": "web"
+    },
+    "compatibility": {
+      "dsh": ">=0.2.0-rc.1 <0.3.0-0",
+      "profiles": [
+        "desktop",
+        "web",
+        "headless"
+      ]
+    }
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "remote-chat",
+    "mobile",
+    "remote-control"
+  ],
+  "license": "MIT"
+}

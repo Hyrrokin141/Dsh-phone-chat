@@ -5,7 +5,8 @@
 
 [简体中文](./README.md) | English
 
-A lightweight, self-hosted **mobile remote chat & host control plugin** for DeepSeek Harness (DSH), complete with an integrated **DSH Settings Panel** (`远程聊天`).
+A lightweight, self-hosted **mobile remote chat & host control plugin** for DeepSeek Harness (DSH), complete with an integrated **DSH Settings Panel** (`远程聊天`).  
+Control your home AI agents right from your phone browser while on the go — upload photos and files, start or switch sessions to keep context fresh, switch models on the fly, and optionally trigger remote control actions across your PC, phone, NAS, or local services.
 
 ## Screenshots
 

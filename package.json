@@ -21,7 +21,9 @@
     "lib/page.html",
     "cordis.patch.example.yml",
     "examples/",
-    "README.md"
+    "LICENSE",
+    "README.md",
+    "README.zh-CN.md"
   ],
   "scripts": {
     "test": "node tests/test-open-plugin.mjs",
@@ -52,5 +54,13 @@
     "mobile",
     "remote-control"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hyrrokin141/Dsh-phone-chat.git"
+  },
+  "homepage": "https://github.com/Hyrrokin141/Dsh-phone-chat#readme",
+  "bugs": {
+    "url": "https://github.com/Hyrrokin141/Dsh-phone-chat/issues"
+  },
   "license": "MIT"
 }
